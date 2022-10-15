@@ -5,8 +5,20 @@ import pygsheets
 split = [", ", ". ", " and ", " but "]
 
 # hardcode derogatory words in
+
+
 blacklist = {
-    "Impairment, Special Need, Deficit" : "Disability",
+    "Racism" : "",
+    "Albeism" : {
+        "Impairment, Special Need, Deficit | Disability",
+        "Wheelchair bound, Confined to a wheelchair, Handicapped, Differently abled, Lame, Crip, Cripple, Gimp, Spastic, Spaz, Physically challenged, Handicapped, Wheelz, Speed Racer, Speedy | Wheelchair user, Disabled, People with Disabilities or PWDs, has [insert disability], Physically disabled",
+        } 
+}
+
+synonym = {
+    "Impairment, Deficit" : "Disability",
+    "Special Need" : "Disability",
+    "Deficit" : "Disability",
     "Wheelchair bound, Confined to a wheelchair, Handicapped, Differently abled, Lame, Crip, Cripple, Gimp, Spastic, Spaz, Physically challenged, Handicapable, Wheelz, Speed Racer, Speedy" : "Wheelchair user, Disabled, People with Disabilities or PWDs, has [insert disability], Physically disabled",
     "Retarded, Feeble-minded, Slow/Delayed, Developmental delay,  Mentally deficient, Stupid, Dumb,  Dimwitted, Idiot" : "Person with a Developmental Disability, Person with an Intellectual Disability,  Person with Down Syndrome, Intellectually Disabled, Developmentally Disabled",
     "Psychotic, Mad, Crazy, Demented, Mental, Loony, Nutjob, Nutso, Whacko, Psychopath, Crazed, Psycho, Deranged, Lunatic" : "Psychiatric disability/diagnosis, psychosocial disability, person with [specific diagnosis/disability]",

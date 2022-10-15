@@ -1,5 +1,4 @@
-# this python code will read a text file and find derogatory statements
-import constant
+import Utilities
 
 # get the text in a variable
 with open("test.txt") as txt:
@@ -11,7 +10,9 @@ for i in constant.split:
     phrases = text.split(i)
     text = phrases
 
+# translate the blacklisted variables
+
+
 # firstly look for specific derogatory words that are blatantly bad to say, these are hard coded
 # TODO: implement more words to glassary
 for i in phrases:
-    
