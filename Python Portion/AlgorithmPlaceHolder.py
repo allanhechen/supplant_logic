@@ -1,6 +1,3 @@
-#import Utilities
-
-# this python code will read a text file and find derogatory statements
 import constant
 
 with open("test.txt") as txt:
@@ -29,9 +26,9 @@ def algor():
         
             enum += 1
     ListOfWords[enum] = str
-    """for item in ListOfWords:
+    for item in ListOfWords:
         if constant.blacklist.get(ListOfWords[item]) != None:
-            ListOfWords[item] = constant.synonym[ListOfWords[item]]"""
+            ListOfWords[item] = constant.Replacement[ListOfWords[item]]
 
     enum = 0
     str = ""
@@ -41,4 +38,3 @@ def algor():
         else:
             str += ListOfWords[enum]
         enum += 1
-    
