@@ -12,4 +12,6 @@ for i in constant.split:
     text = phrases
 
 # firstly look for specific derogatory words that are blatantly bad to say, these are hard coded
-# TODO: implement more words
+# TODO: implement more words to glassary
+for i in phrases:
+    
