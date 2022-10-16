@@ -1,5 +1,5 @@
 # import constant variables
-import constant
+from . import constant
 
 #  Python String Methods Previous Next Python 
 #  has a set of built-in methods that you can use on strings. 
