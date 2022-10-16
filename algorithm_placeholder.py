@@ -122,7 +122,7 @@ def algor(data):
                     if vow == 0:
                         result += word
                     else:
-                        L.append(splitAndCap(word))
+                        L.append(word)
                         if not word[0] in vowels:
                             vow = 0
                         result += holdNchange(L,vow)
