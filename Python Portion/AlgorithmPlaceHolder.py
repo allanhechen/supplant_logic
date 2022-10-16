@@ -1,5 +1,7 @@
 import constant
 
+
+
 with open("test.txt") as txt:
    text = txt.readlines()
 
@@ -38,3 +40,4 @@ def algor():
         else:
             str += ListOfWords[enum]
         enum += 1
+algor()
