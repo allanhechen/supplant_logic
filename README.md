@@ -1,2 +1,7 @@
 # supplant
-Submission for Hack the Valley 7 by Max Yang, Hui Nan Kuang, and Allan He-Chen
+
+The logic behind the supplant app.
+
+Check out the main project at the link below!
+
+[supplant-website](https://github.com/allanhechen/supplant-website)
