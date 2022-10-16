@@ -17,5 +17,5 @@ Replacement = { "barbarian" : "agressive horrific human",
                 'fruity' : "homosexual", 'fairy' : 'homosexual', "midge" : "small person", 
                 "retard" : "slow minded", "midget" : "small person", "delusional" : "different minded",
                 "deformed" : "disabled", "fatty" : "obese", "lump" : "obese", "sissy" : "homosexual man", "pansy" : "homosexual man", "fairy" : "homosexual man", 
-                "faggot" : "homosexual man", "twink" :"effeminate man"
+                "faggot" : "homosexual man", "twink" :"effeminate man", "tranny" : "transgender"
 }
