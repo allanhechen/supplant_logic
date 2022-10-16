@@ -1,20 +1,15 @@
+# import constant variables
 import constant
 
-
-
-with open("test.txt") as txt:
-   text = txt.readlines()
-
-from typing import List
-
-
-def algor():
+# algorithm
+def algor(data):
+    
     ListOfWords = {}
     ListOfOthers = {}
     str = ""
     enum = 0
 
-    for item in text:
+    for item in data:
         if item.isalpha():
             str += item.lower()
         else:
@@ -40,4 +35,3 @@ def algor():
         else:
             str += ListOfWords[enum]
         enum += 1
-algor()
